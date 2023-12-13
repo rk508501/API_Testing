@@ -1,0 +1,54 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-12-13T06:02:48.486Z",
+    "end": "2023-12-13T06:02:48.813Z",
+    "duration": 327
+  },
+  "tests": [
+    {
+      "title": "TestID(POC:123) Debug block AAA <smoke><regression>",
+      "fullTitle": "TestID(POC:123) Debug block AAA <smoke><regression>",
+      "file": "/Users/garu/Downloads/API_Testing/test/Sample.test.ts",
+      "duration": 207,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TestID(POC:345) Debug block BBB <smoke><regression>",
+      "fullTitle": "TestID(POC:345) Debug block BBB <smoke><regression>",
+      "file": "/Users/garu/Downloads/API_Testing/test/Sample.test.ts",
+      "duration": 111,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "TestID(POC:123) Debug block AAA <smoke><regression>",
+      "fullTitle": "TestID(POC:123) Debug block AAA <smoke><regression>",
+      "file": "/Users/garu/Downloads/API_Testing/test/Sample.test.ts",
+      "duration": 207,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TestID(POC:345) Debug block BBB <smoke><regression>",
+      "fullTitle": "TestID(POC:345) Debug block BBB <smoke><regression>",
+      "file": "/Users/garu/Downloads/API_Testing/test/Sample.test.ts",
+      "duration": 111,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    }
+  ]
+}

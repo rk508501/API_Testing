@@ -1,0 +1,24 @@
+{
+  "name": "api_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx ts-mocha test/*.test.ts --timeout 60000 --reporter json --reporter-options output=mocharesults.json",
+    "testMocha": "mocha test/*.test.ts --timeout 60000 --reporter json --reporter-options output=test-results.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC", 
+  "devDependencies": {
+    "@types/expect": "^24.3.0",
+    "@types/mocha": "^10.0.6",
+    "mocha": "^10.2.0",
+    "pactum": "^3.5.1",
+    "pactum-json-reporter": "^1.0.2",
+    "ts-mocha": "^10.0.0"
+  },
+  "dependencies": {
+    "typescript": "^5.3.2"
+  }
+}
